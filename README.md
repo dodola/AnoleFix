@@ -1,8 +1,8 @@
 # AnoleFix
 Another hotfix  另一个热修复方案
 大部分代码来自InstantRun。这个方案很久之前就和小伙伴讨论过，一直没实现，现完成了Alpha版，后期再优化。
-![](screenshot/1.png)
-![](screenshot/2.png)
+
+![](screenshot/1.png) ![](screenshot/2.png)
 
 ## Feature
 1. 可实现动态实时修复
