@@ -1,0 +1,49 @@
+/*
+ * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
+ */
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+sourceSets {
+    main {
+        groovy {
+            groovy { srcDirs = ["src/main/java", "src/main/groovy"] }
+        }
+
+        java {
+            java { srcDirs = [] }
+        }
+    }
+}
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+group = 'dodola.anole.lib'
+version = '1.0.1'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../repo'))
+        }
+    }
+}
+
+dependencies {
+//    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.7'
+    compile gradleApi()
+    compile 'com.android.tools.build:gradle:2.1.3'
+    compile 'commons-io:commons-io:2.4'
+    compile 'commons-codec:commons-codec:1.6'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile group: 'org.ow2.asm', name: 'asm-all', version: '5.1'
+    compile 'com.google.guava:guava:19.0'
+
+    //    compile files('libs/dx.jar')
+}
