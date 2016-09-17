@@ -2,6 +2,9 @@
 Another hotfix  另一个热修复方案
 大部分代码来自InstantRun。这个方案很久之前就和小伙伴讨论过，一直没实现，现完成了Alpha版，后期再优化。
 
+**注：**该项目暂时没有应用到具体上线应用中，暂时只做技术展示
+
+
 ![](screenshot/1.png) ![](screenshot/2.png)
 
 ## Feature
