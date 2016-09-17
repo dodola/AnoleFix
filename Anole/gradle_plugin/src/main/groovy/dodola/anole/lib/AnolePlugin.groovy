@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
+ */
 package dodola.anole.lib
 
 import com.android.build.gradle.AppPlugin
@@ -220,7 +223,7 @@ class AnolePlugin /*extends Transform*/ implements Plugin<Project> {
                         }
                     }
                     inputFiles.each { inputFile ->
-                        println("***********" + inputFile)
+//                        println("***********" + inputFile)
                         def inputPath = inputFile.absolutePath
 
                         if (inputPath.endsWith(com.android.SdkConstants.DOT_JAR)) {

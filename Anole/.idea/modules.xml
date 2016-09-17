@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Anole.iml" filepath="$PROJECT_DIR$/Anole.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/buildsrc/buildsrc.iml" filepath="$PROJECT_DIR$/buildsrc/buildsrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gradle_plugin/gradle_plugin.iml" filepath="$PROJECT_DIR$/gradle_plugin/gradle_plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtime/runtime.iml" filepath="$PROJECT_DIR$/runtime/runtime.iml" />
     </modules>

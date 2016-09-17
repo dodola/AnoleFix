@@ -1,4 +1,7 @@
-///*
+/*
+ * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
+ */
+package dodola.anole.lib;///*
 // * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
 // */
 //package dodola.anole.lib;

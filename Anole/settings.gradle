@@ -1,4 +1,4 @@
 /*
  * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
  */
-include ':app', ':buildsrc', ':runtime', ':lib'
+include ':app', /*':buildsrc',*/ ':runtime', ':lib', ':gradle_plugin'

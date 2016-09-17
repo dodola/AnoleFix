@@ -14,7 +14,7 @@
   </component>
   <component name="GroovyCompilerProjectConfiguration">
     <excludes>
-      <directory url="file://$PROJECT_DIR$/../../sdk/groovy-2.4.3" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../../sdk/groovy-2.4.3" includeSubdirectories="true" />
     </excludes>
   </component>
   <component name="MavenImportPreferences">
