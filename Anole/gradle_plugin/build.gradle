@@ -24,7 +24,7 @@ repositories {
     mavenCentral()
 }
 
-group = 'dodola.anole.lib'
+group = 'dodola.anole.plugin'
 version = '1.0.1'
 
 uploadArchives {
