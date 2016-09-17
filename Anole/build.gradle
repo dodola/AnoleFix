@@ -4,9 +4,13 @@ buildscript {
 
     repositories {
         jcenter()
-        maven {
-            url uri('repo')
+        maven{
+
+            url 'https://dl.bintray.com/dodola/maven'
         }
+//        maven {
+//            url uri('repo')
+//        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.0-rc1'

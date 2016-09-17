@@ -18,3 +18,40 @@ Another hotfix  另一个热修复方案
 2. 有些未考虑到的补丁逻辑还待补充
 3. 性能会略有消耗
 4. **暂时只支持开启混淆状态下的补丁打包**
+
+## Use
+Gralde 配置
+```gradle
+buildscript {
+    repositories {
+        jcenter()
+        maven{
+            url 'https://dl.bintray.com/dodola/maven'
+        }
+
+    }
+    dependencies {
+        classpath 'dodola.anole.plugin:gradle_plugin:1.0.1'
+    }
+}
+
+//在app的gradle增加
+apply plugin:'dodola.anole.plugin'
+
+rocoo_fix {//此处和rocoo_fix的用法一样，但暂时只有preVersionPath的功能
+    preVersionPath = '1'
+}
+
+```
+
+
+```java
+  Anole.applyPatch(context, patch_path);
+```
+
+## Porguard
+
+```
+-keep class dodola.anole.runtime.** { *; }
+-keep class dodola.anole.lib.** { *; }
+```
